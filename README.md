@@ -41,5 +41,3 @@
 
 - [MHCE Organization](https://github.com/MH-Continuous-Education)
   - [decks repository](https://github.com/MH-Continuous-Education/decks)
-
-- [test](https://mh-continuous-education.github.io/decks/000_intro_deck/index.html)
