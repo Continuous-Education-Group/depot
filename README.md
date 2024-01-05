@@ -1,9 +1,6 @@
-# decks
+# depot
 
-- home
-  - [topics](topics.md)
-  - [decks](decks.md)
-  - [minutes](minutes.md)
+[topics](topics.md) - [decks](decks.md) - [minutes](minutes.md)
 
 ---
 
@@ -39,5 +36,9 @@
 
 ## Links
 
-- [MHCE Organization](https://github.com/MH-Continuous-Education)
-  - [decks repository](https://github.com/MH-Continuous-Education/decks)
+- [Organization](https://github.com/Continuous-Education-Group)
+- [Repository](https://github.com/Continuous-Education-Group/decks)
+- [Obsidian](https://obsidian.md/) is the open-source markdown editor 
+- [Advanced Slides](https://mszturc.github.io/obsidian-advanced-slides/) is an Obsidian plugin to help create slides
+- [VS Code](https://code.visualstudio.com/) is an easy way to deal with version control and see the raw format like when editing properties
+- [Github Pages](https://pages.github.com/) stores, hosts, and provides online versions of our presentations

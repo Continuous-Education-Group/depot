@@ -1,9 +1,6 @@
 # Topics
 
-- home > topics
-  - [home](README.md)
-  - [decks](decks.md)
-  - [minutes](minutes.md)
+[home](work/depot/README.md) - [decks](decks.md) - [minutes](minutes.md)
 
 ---
 

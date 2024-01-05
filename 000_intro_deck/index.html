@@ -89,50 +89,205 @@
       <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# Tim's Awesome Example Deck
+## Introduction Deck
 
-December 30, 2023
+Version: 2023/1/4
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 1.0 Creating Horizontal Slides
+### Table of Contents
 
-- Use `---` to create new horizontal slides
+1. About Continuous Education Group (CEG)
+2. The 3 Steps: Topics > Decks > Minutes
+3. Our Repository
+4. Tools: Obsidian, VS Code, Github Pages
+5. Viewing Decks
+6. Building Decks
+7. Publishing Decks
+8. Review
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 1.0 About Continuous Education Group (CEG)
+
+- We do small informal, presentations to grow our engineering knowledge
+- Topics range from company features, data patterns, frameworks, or anything tech related
+- We try to meet once a week, currently Fridays
+- This org is a centralize place to aggregate our collective notes
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 2.0 The 3 Steps: Topics > Decks > Minutes
+
+- Use the repository as a central hub and look at examples to help
+1. Topics - things on agenda we want to cover
+2. Decks - slide decks for topics
+3. Minutes - meeting agenda to keep us on track
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 3.0 Our Repository
+
+- [Depot repository on our org](https://github.com/MH-Continuous-Education/depot)
+- Each deck has `source` and `html` folders
+- `source` folder has a `source.md` which is the raw slide in markdown format that's viewable in obsidian and all related assets
+- `html` folder has export of the html/pdf version is generated using the Advanced Slides plugin in Obsidian
+  
+<img src="work/depot/000_intro_deck/source/assets/folder_structure.png" alt="" style="width: 600px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 4.0 Tools: Obsidian, VS Code, Github Pages
+
+- [Obsidian](https://obsidian.md/) is the open-source markdown editor that we create slides with the plugin called [Advanced Slides](https://mszturc.github.io/obsidian-advanced-slides/)
+- [VS Code](https://code.visualstudio.com/) is an easy way to deal with version control and see the raw format like when editing properties
+- [Github Pages](https://pages.github.com/) stores, hosts, and provides online versions of our presentations (Neato!)
 </div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### 2.0 Creating Vertical Slides
+### 5.0 Viewing Decks
+
+- Clone the [repository](https://github.com/MH-Continuous-Education/decks) locally with your terminal or VS code terminal
+- Open Obsidian, then Open Folder as Vault
+- Open the left hand menu and go to `source.md` to view the raw deck
+- Click on Show Slide Preview to run the deck in presentation mode
+  
+<img src="work/depot/000_intro_deck/source/assets/folder_as_vault.png" alt="" style="width: 600px; object-fit: fill">
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 2.1 How to Create
+### 5.1 Viewing Options
 
-- Use `--` to create vertical slides that you can nest under a certain topic
+- Edit your plugin option for some of these additional viewing options
+
+<img src="work/depot/000_intro_deck/source/assets/plugin_options.png" alt="" style="width: 600px; object-fit: fill">
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 2.2 Scrolling
+### 5.2 Deck overview, Slide Numbers, Controls
 
-- You can scroll up and down to expand on that topic
+- Eagle eye's view of slides
+
+<img src="work/depot/000_intro_deck/source/assets/deck_overview.png" alt="" style="width: 600px; object-fit: fill">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 5.3 Notes Canvas
+
+- Draw on your slides to emphasize, persists during presentation but doesn't save to file, use `c` to toggle
+
+<img src="work/depot/000_intro_deck/source/assets/notes_canvas.png" alt="" style="width: 600px; object-fit: fill">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 5.4 Chalkboard
+
+- Open window to draw ideas, use `b` to toggle
+
+<img src="work/depot/000_intro_deck/source/assets/chalkboard.png" alt="" style="width: 600px; object-fit: fill">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 5.5 Laser Pointer
+
+- Everybody loves lasers, use `q` to toggle
+
+<img src="work/depot/000_intro_deck/source/assets/laser.png" alt="" style="width: 600px; object-fit: fill">
+</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.0 Building decks
+
+- [Advanced Slides](https://mszturc.github.io/obsidian-advanced-slides/) is an amazing way to create slides using just markdown syntax
+- There are many customizations and we cover a couple of points here, explore their documentation for more ideas
+- Feel free to use `template.md` in the root directory for convenience
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.1 Guidelines
+
+- Don't use heading 1  (`#`) on slides because it makes the text too large
+	- Use `##` for the deck title page
+	- Use `###` for individual slide titles
+- Create a Table of Contents slide and enumerate the topics being covered
+- Copy and paste that to help you make slides quickly
+- Keep slide to max of 5 or 6 bullets for sizing and conciseness
+- Slide should have most of the info, don't have 1 word cue words as it doesn't help future learners
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.2 Creating Horizontal Slides aka branches
+
+- Use `---` to create new slides which moves horizontally
+- Enumerate the branches as whole digits like `1.0`
+
+<img src="work/depot/000_intro_deck/source/assets/table_of_contents.png" alt="" style="width: 300px; object-fit: fill">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.3 Creating Vertical Slides aka leaves
+
+- Use `--` to create new vertical slides which gets nested under branches
+- Enumerate the leaves as decimals like `1.1`
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.4 Using Sequential Transitions
+
+- Use `<!-- .element: class="fragment" data-fragment-index="1" -->` to do slide transition using index as the order they appear
+- Here's an example:
+- This item shows up 1st. <!-- .element: class="fragment" data-fragment-index="1" -->
+- This item shows up 2nd. <!-- .element: class="fragment" data-fragment-index="2" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 6.5 Adding Images
+
+- Add images in `source/assets` folder
+<img src="work/depot/000_intro_deck/source/assets/controls.png" alt="" style="width: 800px; object-fit: fill">
+</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 7.0 Publishing decks
+
+- After creating the decks, export as html, push the code to Github
+- [Github Pages](https://pages.github.com/) is already installed on our repository 
+- It will automagically make your html as an online powerpoint with it's own URL
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 7.1 Exporting as HTML
+
+- Click on Show Slide Preview
+- Once in the slides, top right there's a `...` to click
+- Then go to export as HTML
+- You can set the export directory in the option
+
+<img src="work/depot/000_intro_deck/source/assets/exporting_html.png" alt="" style="width: 400px; object-fit: fill">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 7.2 Publishing to Github Page
+
+- [Github Pages](https://pages.github.com/) is already installed on our repository and automagically make your html as an online powerpoint with it's own URL
+- Add your deck to it's own folder
+- Enumerate on the next triple digit number
+- Add `https://continuous-education-group.github.io/decks/YOUR_FOLDER_NAME/index.html` to `decks.md` if you've structure your folders correctly
+- Make a new commit and and push to the repository
 </div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 3.0 Using Sequential Transitions
+### 8.0  Review
 
-- This item shows up 1st. <!-- .element: class="fragment" data-fragment-index="1" -->
-- This item shows up 2nd. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Download the 3 tools: Obsidian, VS Code, Github Pages
+- Know how to view, build, and publish decks
+- Ready to make your first presentation
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 4.0 Tips and Tricks
+### Bonito Finito
 
-- Don't over use heading 1 on slides (`#`) because it makes the text too large
-	- It works for just the title page
-	- Use `##` for slide titles
-- Number branches as whole digits like `1.0`
-	- Number leaves as decimals like `1.1`
-- Push `esc` to view the slides overviews
-- Navigating on a leaf will return back to the leaf if moving horizontally
+- Questions, comments, requests?
 </div></script></section></div>
     </div>
 
