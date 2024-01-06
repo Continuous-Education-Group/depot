@@ -14,7 +14,6 @@
 - Vitest and Jest
 - Mocks, spies and all the other mean stuff
 - Team-specific tools/features
-  
 - Rx.js
 - Mad-hooks and mad-sdk
 - Deployment Processes (Hotfixing, Weekly Prod Release)
